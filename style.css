@@ -1,0 +1,23 @@
+#countlabel{
+    font-size: 10em;
+    font-family: Helvetica;
+    text-align: center;
+    display: block;
+}
+#buttons{
+   text-align: center;
+}
+button{
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #05f7ff; /* Green */
+    color: rgb(12, 12, 12);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+button:hover {
+    background-color: #54e3f0; /* Darker green on hover */
+}
